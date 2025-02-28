@@ -2354,9 +2354,10 @@ section,
 }
 
 .team-member img {
-  width: 100%;
-  border-radius: 50%;
-  margin-bottom: 15px;
+  width: 200px;  /* Ukuran kotak */
+  height: 230px;
+  object-fit: cover;  /* Memotong gambar agar tetap proporsional */
+  border-radius: 10px; /* Opsional: membuat sudut melengkung */
 }
 
 .team-member h3 {
